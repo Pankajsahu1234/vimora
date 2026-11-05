@@ -1,0 +1,8 @@
+{
+  "name": "Vimora Foods | Premium Bihar Phool Makhana Manufacturing & B2B Supply",
+  "description": "Vimora Foods Private Limited - Direct Farm-to-Factory Phool Makhana (Fox Nuts) processed in BIADA Purnea, Bihar, with corporate distribution in Bangalore. Wholesale grades, bulk cartons, and premium blends.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

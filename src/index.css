@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-brand-green: #0F2E1E;
+  --color-brand-green-light: #1A4E33;
+  --color-brand-green-deep: #081B11;
+  --color-brand-gold: #C5A059;
+  --color-brand-gold-light: #DFBE7A;
+  --color-brand-gold-dark: #9D7B37;
+  --color-brand-cream: #FAF8F5;
+  --color-brand-sand: #F1ECE1;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #FAF8F5;
+  color: #1B291F;
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Ensure mobile inputs do not trigger iOS auto-zoom */
+@media (max-width: 640px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
